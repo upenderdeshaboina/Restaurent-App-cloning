@@ -1,0 +1,66 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  background-color: #fff;
+  color: white;
+  border-bottom: 3px solid #e8e4e3;
+  height: 20%;
+}
+
+.my-orders {
+  color: #000;
+  margin-right: 20px;
+  font-size: 18px;
+}
+@media screen and (max-width: 576px) {
+  .my-orders {
+    display: none;
+  }
+  .badge {
+    position: absolute;
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    padding: 3px;
+    font-size: 15px;
+    font-family: roboto;
+    text-align: center;
+  }
+  .cart {
+    margin-right: 25px;
+  }
+}
+
+.header-name {
+  margin: 0;
+  color: #000;
+  font-size: 35px;
+  font-family: roboto;
+}
+.my-orders-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+}
+.cart-icon {
+  position: relative;
+  color: #000;
+  width: 100%;
+}
+
+.badge {
+  position: absolute;
+  background-color: red;
+  right: 1px;
+  margin-right: 23px;
+  margin-top: -11px;
+  color: white;
+  border-radius: 50%;
+  padding: 3px;
+  font-size: 15px;
+  font-family: roboto;
+  text-align: center;
+}
